@@ -1,3 +1,8 @@
+/* Reset */
+
+ul {
+  list-style: none;
+}
 /* Header */
 header > div {
   background-color: #000;
@@ -14,4 +19,54 @@ header > div {
 
 header figure {
   margin: 0 10px;
+}
+
+/* Returnal section */
+#returnal {
+  height: 75vh;
+  position: relative;
+  overflow: hidden;
+  background-image: url(../img/jumbo-bg.png);
+}
+
+.returnal {
+  height: 50px;
+  width: 300px;
+  position: absolute;
+  top: 255px;
+}
+
+#returnal h1,
+p {
+  color: white;
+}
+
+#returnal > .container {
+  display: flex;
+  align-items: end;
+}
+
+.wrap {
+}
+
+.buy-now {
+  background-color: #bd4825;
+  border-radius: 20px;
+  color: white;
+  width: 120px;
+  height: 40px;
+  margin-bottom: 40px;
+}
+
+.container {
+  height: 100%;
+}
+
+h1 + p {
+  margin-top: 30px;
+  font-weight: 600;
+}
+
+h1 {
+  font-weight: 400;
 }
