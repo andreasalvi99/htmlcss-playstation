@@ -3,6 +3,14 @@
 ul {
   list-style: none;
 }
+
+/* Debug */
+.debug {
+  border: 3px solid black;
+  width: 200px;
+  height: 200px;
+}
+
 /* Header */
 header > div {
   background-color: #000;
@@ -44,6 +52,7 @@ p {
 #returnal > .container {
   display: flex;
   align-items: end;
+  height: 100%;
 }
 
 .wrap {
@@ -58,10 +67,6 @@ p {
   margin-bottom: 40px;
 }
 
-.container {
-  height: 100%;
-}
-
 h1 + p {
   margin-top: 30px;
   font-weight: 600;
@@ -69,4 +74,12 @@ h1 + p {
 
 h1 {
   font-weight: 400;
+}
+
+/* Grid */
+.card1,
+.card2 {
+  width: 230px;
+  height: 140px;
+  border-radius: 20px;
 }
