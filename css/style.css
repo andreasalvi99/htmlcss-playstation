@@ -1,0 +1,17 @@
+/* Header */
+header > div {
+  background-color: #000;
+  display: flex;
+  justify-content: flex-end;
+  height: 40px;
+  align-items: center;
+}
+
+.ps-logo {
+  height: 30px;
+  width: 85px;
+}
+
+header figure {
+  margin: 0 10px;
+}
