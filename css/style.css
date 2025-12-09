@@ -34,9 +34,40 @@ header figure {
   margin: 0 10px;
 }
 
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.login {
+  background-color: #363636;
+  border-radius: 20px;
+  width: 70px;
+  height: 30px;
+  border: none;
+}
+
+.login > a {
+  color: white;
+}
+
+.search > img {
+  height: 25px;
+  width: 25px;
+}
+
+.navbar-right > ul {
+  margin: 0 10px 0;
+  padding: 0;
+}
+
+[class|="navbar"] {
+  font-weight: 700;
+}
+
 /* Returnal section */
 #returnal {
-  height: 65vh;
+  height: 68vh;
   position: relative;
   overflow: hidden;
   background-image: url(../img/jumbo-bg.png);
@@ -46,7 +77,7 @@ header figure {
   height: 50px;
   width: 300px;
   position: absolute;
-  top: 255px;
+  top: 225px;
 }
 
 h1,
@@ -143,6 +174,9 @@ h1 {
   color: white;
 }
 
+.buy-now > a {
+  color: white;
+}
 /* New Games section */
 #new-games {
   background-color: #1f1f1f;
