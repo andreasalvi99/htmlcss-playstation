@@ -34,17 +34,16 @@ header figure {
   margin: 0 10px;
 }
 
-.navbar-right {
-  display: flex;
-  align-items: center;
-}
-
 .login {
   background-color: #363636;
   border-radius: 20px;
   width: 70px;
   height: 30px;
   border: none;
+}
+
+.navbar-right li {
+  margin: 0 6px 0 6px;
 }
 
 .login > a {
@@ -67,6 +66,30 @@ header figure {
 
 .search:hover {
   cursor: pointer;
+}
+
+.navbar-right #custom {
+  width: 143px;
+}
+
+.navbar.navbar-expand-lg.bg-body-tertiary {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+#custom::after {
+  content: url(../img/chevron-down-solid.svg);
+  height: 9px;
+  width: 9px;
+  display: inline-block;
+}
+
+#custom:hover::after {
+  content: url(../img/chevron-down-solid-hover.svg);
+  height: 9px;
+  width: 9px;
+  display: inline-block;
 }
 
 /* Returnal section */
