@@ -69,7 +69,6 @@ header figure {
 #returnal {
   height: 68vh;
   position: relative;
-  overflow: hidden;
   background-image: url(../img/jumbo-bg.png);
 }
 
