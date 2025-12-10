@@ -65,6 +65,10 @@ header figure {
   font-weight: 700;
 }
 
+.search:hover {
+  cursor: pointer;
+}
+
 /* Returnal section */
 #returnal {
   min-height: 75vh;
@@ -116,6 +120,14 @@ h1 {
   width: 100%;
   height: 100%;
   border-radius: 20px;
+}
+
+.card1:hover {
+  cursor: pointer;
+  scale: 1.03;
+  transition: all 0.2s ease;
+  border: 2px solid transparent;
+  outline: 3px solid #3573c8;
 }
 
 /* Play 5 section */
@@ -209,7 +221,7 @@ h1 {
 
 .card2 {
   width: 100%;
-  height: 100%;
+  height: 70%;
   border-radius: 15%;
   object-fit: scale-down;
 }
