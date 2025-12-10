@@ -69,6 +69,8 @@ header figure {
 #returnal {
   min-height: 75vh;
   position: relative;
+  background-position: center;
+  background-size: cover;
   background-image: url(../img/jumbo-bg.png);
 }
 
@@ -154,6 +156,8 @@ h1 {
   background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
   min-height: 75vh;
   position: relative;
+  background-position: center;
+  background-size: cover;
 }
 
 .itt {
